@@ -1,5 +1,5 @@
 {
-    "name": "laozhang/campus",
+    "name": "jaycezheng/campus",
     "description": "campus-php-sdk",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "license": "MIT",
     "autoload": {
-        "psr-4": { "laozhang\\campus\\": "src" }
+        "psr-4": { "jaycezheng\\campus\\": "src" }
     },
     "require": {}
 }
