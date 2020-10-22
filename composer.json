@@ -1,0 +1,15 @@
+{
+    "name": "laozhang/campus",
+    "description": "campus-php-sdk",
+    "authors": [
+        {
+            "name": "18777922300",
+            "email": "18777922300@163.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "laozhang\\campus\\": "src" }
+    },
+    "require": {}
+}
