@@ -1,5 +1,5 @@
 <?php
-namespace laozhang\campus\callback;
+namespace jaycezheng\campus\callback;
 
 /**
  * 企业微信回调消息加解密示例代码.

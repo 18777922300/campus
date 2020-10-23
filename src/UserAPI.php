@@ -1,5 +1,5 @@
 <?php
-namespace laozhang\campus;
+namespace jaycezheng\campus;
 
 
 class UserAPI

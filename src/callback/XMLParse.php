@@ -1,5 +1,5 @@
 <?php
-namespace laozhang\campus\callback;
+namespace jaycezheng\campus\callback;
 
 /**
  * XMLParse class  

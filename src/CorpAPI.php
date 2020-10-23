@@ -1,11 +1,11 @@
 <?php
-namespace laozhang\campus;
+namespace jaycezheng\campus;
 
-use laozhang\campus\utils\ParameterError;
-use laozhang\campus\utils\QyApiError;
-use laozhang\campus\utils\SysError;
-use laozhang\campus\utils\HttpUtils;
-use laozhang\campus\utils\Utils;
+use jaycezheng\campus\utils\ParameterError;
+use jaycezheng\campus\utils\QyApiError;
+use jaycezheng\campus\utils\SysError;
+use jaycezheng\campus\utils\HttpUtils;
+use jaycezheng\campus\utils\Utils;
 
 class CorpAPI extends API
 {

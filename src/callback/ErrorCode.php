@@ -1,5 +1,5 @@
 <?php
-namespace laozhang\campus\callback;
+namespace jaycezheng\campus\callback;
 /**
  * error code 说明.
  * <ul>

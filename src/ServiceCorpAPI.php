@@ -1,8 +1,8 @@
 <?php
-namespace laozhang\campus;
+namespace jaycezheng\campus;
 
-use laozhang\campus\utils\HttpUtils;
-use laozhang\campus\utils\Utils;
+use jaycezheng\campus\utils\HttpUtils;
+use jaycezheng\campus\utils\Utils;
 
 // include_once(__DIR__."/../../utils/Utils.class.php");
 // include_once(__DIR__."/../../utils/HttpUtils.class.php");

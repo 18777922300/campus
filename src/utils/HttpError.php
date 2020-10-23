@@ -1,5 +1,5 @@
 <?php
-namespace laozhang\campus\utils;
+namespace jaycezheng\campus\utils;
 
 class HttpError extends \Exception
 {
