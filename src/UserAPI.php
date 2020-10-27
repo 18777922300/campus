@@ -1,30 +1,30 @@
 <?php
 namespace jaycezheng\campus;
 
+use jaycezheng\campus\utils\Utils;
+
 
 class UserAPI
 {
     public $baseUrl = 'https://sso.qq.com/open';
     private $appid = null;
     private $secret = null;
-    protected $redirect_uri = "https://luohudck.tencentschool.cn/";
-    protected $accessToken = null;
-
+    protected $redirect_uri = 'https://luohudck.tencentschool.cn/';
     /**
      * @brief __construct : 构造函数，
      */
-    public function __construct($appid=null, $secret=null)
+    public function __construct($appid=null, $secret=null, $redirect_uri=null)
     {
         Utils::checkNotEmptyStr($appid, "appid");
         Utils::checkNotEmptyStr($secret, "secret");
 
         $this->appid = $appid;
+        $this->$redirect_uri = !empty($redirect_uri)?$redirect_uri:$this->$redirect_uri;
         $this->secret = $secret;
     }
 
     public function GetAccessToken($code)
     {
-        $redirect_uri = 'https://luohudck.tencentschool.cn/';
         $url = $this->baseUrl.'/access_token';
         $param = array(
             'appid'=>$this->appid,
@@ -91,6 +91,4 @@ class UserAPI
             return false;
         }
     }
-
-   
 }
