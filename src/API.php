@@ -48,6 +48,8 @@ abstract class API
     const TEACHER_CLASS_LIST       = '/teacher/class/list?access_token=ACCESS_TOKEN';
     const CLASS_TEACHER_LIST       = '/class/teacher/list?access_token=ACCESS_TOKEN';
 
+    const USER_PHONE_GET       = '/user/phone/get?access_token=ACCESS_TOKEN';
+
     protected function GetAccessToken() { }
     protected function RefreshAccessToken() { }
 

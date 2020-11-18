@@ -366,5 +366,19 @@ class CorpAPI extends API
         return $this->rspJson;
     }
 
+    /**
+     * @brief user_phone : 通过userid获取手机号
+     * userid:用户id
+     * @return : phone
+     */
+    public function UserPhoneGet($userid)
+    {
+        $args = [
+            'userid'=>$userid
+        ];
+        self::_HttpCall(self::USER_PHONE_GET, 'GET', $args); 
+        return $this->rspJson;
+    }
+
    
 }
